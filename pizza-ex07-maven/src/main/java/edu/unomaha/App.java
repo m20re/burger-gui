@@ -16,6 +16,11 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         /* Scene constructor that immediately returns a Parent within its constructor */
         scene = new Scene(loadFXML("Menu"), 640, 480);
+
+        /* Store and load the css stylesheet */
+        String css = this.getClass().getResource("/edu/unomaha/views/styles.css").toExternalForm();
+        scene.getStylesheets().add(css);
+
         stage.setScene(scene);
         stage.setTitle("Input");
         stage.show();
@@ -23,7 +28,6 @@ public class App extends Application {
 
     static void setRoot(String fxml) throws IOException {
         scene.setRoot(loadFXML(fxml));
-
     }
 
     private static Parent loadFXML(String fxml) throws IOException {

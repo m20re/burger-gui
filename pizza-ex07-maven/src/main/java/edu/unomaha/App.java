@@ -15,7 +15,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         /* Scene constructor that immediately returns a Parent within its constructor */
-        scene = new Scene(loadFXML("Menu"), 640, 480);
+        scene = new Scene(loadFXML("Menu"));
 
         /* Store and load the css stylesheet */
         String css = this.getClass().getResource("/edu/unomaha/views/styles.css").toExternalForm();

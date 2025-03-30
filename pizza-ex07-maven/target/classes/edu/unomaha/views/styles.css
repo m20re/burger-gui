@@ -1,9 +1,14 @@
 .root {
-    -fx-font-family: 'Arial';
-    -fx-background-color: #f0f0f0;
+    -fx-background-color: #fcc049b4;
+    -fx-font-family: "Roboto";
 }
 
-.button {
-    -fx-background-color: #4CAF50;
-    -fx-text-fill: white;
+.label {
+    -fx-font-size: 20;
+    -fx-text-fill: #023047;
+}
+
+.titleLabel {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
 }

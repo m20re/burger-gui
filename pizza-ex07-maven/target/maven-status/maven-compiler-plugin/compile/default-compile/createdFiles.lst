@@ -1,3 +1,4 @@
+edu\unomaha\controllers\BurgerController.class
 edu\unomaha\pizza\PizzaMain.class
 edu\unomaha\pizza\crust\ThinCrust.class
 edu\unomaha\burger\buns\BurgerBun.class
@@ -12,6 +13,7 @@ edu\unomaha\pizza\topping\CheeseTopping.class
 edu\unomaha\pizza\sauce\TomatoSauce.class
 edu\unomaha\burger\buns\BriocheBun.class
 edu\unomaha\burger\meat\BeefMeat.class
+edu\unomaha\controllers\PizzaController.class
 edu\unomaha\pizza\sauce\PizzaSauce.class
 edu\unomaha\burger\cheese\BurgerCheese.class
 edu\unomaha\pizza\sauce\AlfredoSauce.class

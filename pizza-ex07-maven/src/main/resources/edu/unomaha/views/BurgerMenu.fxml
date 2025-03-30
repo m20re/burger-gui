@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
@@ -12,10 +11,10 @@
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="300.0">
          <children>
-            <Label alignment="CENTER" layoutX="29.0" layoutY="30.0" prefHeight="43.0" prefWidth="342.0" styleClass="titleLabel" text="Main Menu" />
-            <Label fx:id="textLabel" alignment="TOP_CENTER" layoutX="66.0" layoutY="103.0" prefHeight="17.0" prefWidth="280.0" text="Choose your item!" />
-            <Button fx:id="burgerButton" layoutX="132.0" layoutY="171.0" mnemonicParsing="false" onAction="#switchToBurger" prefHeight="58.0" prefWidth="136.0" text="Add Burger" />
-            <Button fx:id="pizzaButton" layoutX="132.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToPizza" prefHeight="58.0" prefWidth="136.0" text="Add Pizza" />
+            <Label alignment="CENTER" layoutX="29.0" layoutY="30.0" prefHeight="43.0" prefWidth="342.0" styleClass="titleLabel" text="Burger Menu" />
+            <Label layoutX="29.0" layoutY="110.0" prefHeight="30.0" prefWidth="100.0" text="Bun" />
+            <Label layoutX="29.0" layoutY="156.0" prefHeight="30.0" prefWidth="100.0" text="Cheese" />
+            <Label layoutX="29.0" layoutY="200.0" prefHeight="30.0" prefWidth="100.0" text="Meat" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

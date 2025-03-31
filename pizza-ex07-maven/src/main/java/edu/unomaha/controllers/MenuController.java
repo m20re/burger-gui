@@ -14,8 +14,6 @@ import javafx.fxml.FXML;
 
 public class MenuController {
 
-    private double TotalPrice;
-    private ArrayList<AbstractMenuItem> pizzaComponents;
     
     private Stage stage;
     private Scene scene;

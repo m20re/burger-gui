@@ -10,6 +10,6 @@ public abstract class BurgerCheese extends AbstractMenuItem {
     }
 
     public Double getPrice() {
-        return 0.10;
+        return 0.25;
     }
 }

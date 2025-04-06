@@ -39,6 +39,7 @@ edu\unomaha\burger\buns\SesameBun.class
 edu\unomaha\pizza\topping\VeggieTopping.class
 edu\unomaha\pizza\topping\MeatTopping.class
 edu\unomaha\pizza\topping\PepperTopping.class
+edu\unomaha\controllers\ReceiptController.class
 edu\unomaha\pizza\topping\PizzaTopping.class
 edu\unomaha\pizza\topping\SausageTopping.class
 edu\unomaha\burger\garnishes\BurgerGarnish.class

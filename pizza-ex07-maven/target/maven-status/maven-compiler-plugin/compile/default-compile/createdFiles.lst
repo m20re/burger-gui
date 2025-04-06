@@ -10,6 +10,7 @@ edu\unomaha\burger\meat\BeefMeat.class
 edu\unomaha\controllers\PizzaController.class
 edu\unomaha\burger\cheese\BurgerCheese.class
 edu\unomaha\burger\cheese\CheddarCheese.class
+edu\unomaha\burger\BurgerManager.class
 edu\unomaha\pizza\topping\AsiagoTopping.class
 edu\unomaha\pizza\Pizza.class
 edu\unomaha\burger\garnishes\GuacamoleGarnish.class

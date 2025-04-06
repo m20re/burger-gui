@@ -15,7 +15,7 @@
             <Label alignment="CENTER" layoutX="29.0" layoutY="30.0" prefHeight="43.0" prefWidth="342.0" styleClass="titleLabel" text="Main Menu" />
             <Label fx:id="textLabel" alignment="TOP_CENTER" layoutX="66.0" layoutY="103.0" prefHeight="17.0" prefWidth="280.0" text="Choose your item!" />
             <Button fx:id="burgerButton" layoutX="132.0" layoutY="171.0" mnemonicParsing="false" onAction="#switchToBurger" prefHeight="58.0" prefWidth="136.0" text="Add Burger" />
-            <Button fx:id="pizzaButton" layoutX="132.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToPizza" prefHeight="58.0" prefWidth="136.0" text="Add Pizza" />
+            <Button fx:id="pizzaButton" layoutX="118.0" layoutY="268.0" mnemonicParsing="false" onAction="#switchToPizza" prefHeight="58.0" prefWidth="136.0" text="Add Pizza" visible="false" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

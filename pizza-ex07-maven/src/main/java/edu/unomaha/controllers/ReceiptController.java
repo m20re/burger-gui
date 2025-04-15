@@ -31,6 +31,11 @@ public class ReceiptController implements Initializable {
                        .append("\n\n");
             }
         }
+
+        receipt.append("Final price: $")
+                .append(String.format("%.2f", BurgerManager.getInstance().getPrice()))
+                .append("\n\n");
+
         receiptTextArea.setText(receipt.toString());
     }
 }

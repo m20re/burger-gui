@@ -172,7 +172,7 @@ public class BurgerController implements Initializable {
 
         displayBurgerSummary(userBurger);
         BurgerManager.getInstance().addBurger(userBurger);
-
+        
         /* Alert the user that a burger has been added */
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle("Burger Added");

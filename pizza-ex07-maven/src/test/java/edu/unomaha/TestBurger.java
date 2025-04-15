@@ -2,8 +2,6 @@ package edu.unomaha;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.io.IOException;
-
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -24,7 +22,6 @@ import edu.unomaha.pizza.crust.ThickCrust;
 import edu.unomaha.pizza.sauce.PizzaSauce;
 import edu.unomaha.pizza.sauce.TomatoSauce;
 import edu.unomaha.pizza.topping.MozzarellaTopping;
-import edu.unomaha.pizza.topping.PepperTopping;
 import edu.unomaha.pizza.topping.PepperoniTopping;
 import edu.unomaha.pizza.topping.PizzaTopping;
 
@@ -113,8 +110,14 @@ public class TestBurger {
         BurgerGarnish newGarnish = new OnionringGarnish();
         burg.addTopping(newGarnish);
         assertEquals(3.9, burg.getPrice(), 0.0001);
-        
+
+        /* Add burger to the burger instance */
+        BurgerManager.getInstance().addBurger(burg);
+        /* Recall that a burger was added in the prior tests */
+        assertEquals(7.60, BurgerManager.getInstance().getPrice(), 0.0001);
     }
+
+    
 
     @Test
     public void testPizzaAssemble() {
@@ -133,6 +136,7 @@ public class TestBurger {
         pizza.addTopping(newTopping);
         assertEquals(2.30, pizza.getPrice(), 0.0001);
     }
+
 
 
 

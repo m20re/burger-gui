@@ -97,7 +97,7 @@ public class BurgerController implements Initializable {
 
     @FXML
     public void addGarnishField() {
-        // Limit to 4 extra garnish choices, for example
+        // Limit to 4 extra garnish choices
         if (garnishCount < 4 ) {
             ChoiceBox<BurgerGarnish> choiceBox = extraBoxes.get(garnishCount-1);
             Label label = extraLabels.get(garnishCount-1);

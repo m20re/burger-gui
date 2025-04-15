@@ -13,7 +13,6 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.FXML;
 
 public class MenuController {
 
